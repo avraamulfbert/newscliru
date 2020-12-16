@@ -1,0 +1,125 @@
+@font-face {
+font-family: "Golos"; 
+src: url("../fonts/golos-regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+p {
+    font-family: "Golos";
+    font-style: normal; 
+    font-weight: normal;  
+}
+
+h3 {
+    font-family: "Golos";
+    font-style: normal; 
+    font-weight: bold;  
+}
+h4 {
+    font-family: "Golos";
+    font-style: normal; 
+    font-weight: normal;  
+}
+h5 {
+    font-family: "Golos";
+    font-style: normal; 
+    font-weight: normal;  
+}
+.navbar {
+    background: #03A06C;
+    height: 100px;
+}
+.navbar-brand {
+    margin-left: 14%;
+}
+.nav-link {
+color: #ffffff ;}
+.side-for-scli {
+    background-image: url("../img/back-side-for-scli.png"); 
+}
+.side-text {
+    color: #ffffff; 
+    font-family: "Golos";
+    font-style: normal; 
+    font-weight: bold; 
+}
+.bg-list-light {
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.5);
+}
+.back-side-for-scli-alt {
+    background-image:url("../img/back-side-for-scli-alt.png");}
+
+.first-footer {
+background:#3B4256;
+}    
+.second-footer {
+    background: #2D3344;
+}
+.py-6 {
+    padding-top: 20%;
+}
+.py-7{
+    padding-top: 5%;
+}
+.pt-6 {
+    padding-bottom: 40%;
+}
+.breadcrumps-for-fixed-nav {
+    padding-top: 6.6%;
+}
+.breadcrumb-custom-size {
+    padding-left: 19em;
+    font-size: 13px;
+}
+.breadcrumb-item>a {
+    color: gray;
+}
+.breadcrumb-item-active {
+    color: #000 !important;
+}
+.drowpdown-100 {
+    width: 100%;
+}
+.text-48px {font-size: 48px;
+
+}
+.text-32px {font-size: 32px;}
+.text-16px {font-size: 16px;}
+.text-22px {font-size: 22px;}
+.text-18px { font-size: 18px;}
+.text-14px {font-size: 14px;}
+#greystone-text {
+    color: #B3BBC3;
+}
+#yellowstone-text {
+    color: #FFDE01;
+}
+#greenstone-text {
+    color: #03A06C;
+}
+#yellow-link-bg {
+    background-color: #FFDE01;
+}
+#green-link-color {
+    color: #03A06C;
+}
+.super-search-button {
+    padding-left: 27em;
+}
+.plus-сareer:hover {
+    color: #03A06C;
+    cursor: pointer;
+}
+.content-container {
+    height: 72px;
+    width: auto;
+}
+
+.card-special-styles {
+    margin-top: -3.5em;
+}
+.mainpage-news-photo {
+    border-radius: 4px;
+}
