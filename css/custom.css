@@ -70,19 +70,19 @@ background:#3B4256;
 .text-22px {font-size: 22px;}
 .text-18px { font-size: 18px;}
 .text-14px {font-size: 14px;}
-#greystone-text {
+.greystone-text {
     color: #B3BBC3;
 }
-#yellowstone-text {
+.yellowstone-text {
     color: #FFDE01;
 }
-#greenstone-text {
+.greenstone-text {
     color: #03A06C;
 }
-#yellow-link-bg {
+.yellow-link-bg {
     background-color: #FFDE01;
 }
-#green-link-color {
+.green-link-color {
     color: #03A06C;
 }
 .super-search-button {
