@@ -198,8 +198,8 @@ body {
 }
 
 .sub-menu {
-    /* display: none; */
-    display: block;
+    display: none;
+    /* display: block; */
     position: absolute;
     left: 0;
     right: 0;
