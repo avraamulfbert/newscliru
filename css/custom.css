@@ -27,6 +27,12 @@ body {
     font-weight: bold;
 }
 
+.side-text-normal {
+    color: #ffffff;
+    font-family: "Golos";
+    font-style: normal;
+}
+
 .bg-list-light {
     background: #ffffff;
     color: #000000;
@@ -120,6 +126,7 @@ body {
 
 .yellow-link-bg {
     background-color: #FFDE01;
+    color: #000;
 }
 
 .green-link-color {
@@ -219,4 +226,34 @@ body {
 .sub-h a {
     text-decoration: none;
     color: #FFDE01;
+}
+
+.sub-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.bx-breadcrumb-item span {
+    color: #848E99;
+}
+
+.bx-breadcrumb-item .active {
+    color: #000;
+}
+
+.animation {
+    background-image: url(img/binar-green-bg.png);	
+    background-size: cover;	
+    background-position: top left;	
+    background-repeat: repeat;
+}
+
+.scli-breadcrumb {
+    padding-top: 110px;
+}
+
+.eagle-transparent {
+    background-image: url(img/press-centre-white-bg.png);	
+    background-position: top;
+    background-repeat: no-repeat;
 }
