@@ -242,7 +242,7 @@ body {
 }
 
 .animation {
-    background-image: url(img/binar-green-bg.png);	
+    background-image: url(../img/binar-green-bg.png);	
     background-size: cover;	
     background-position: top left;	
     background-repeat: repeat;
@@ -253,7 +253,7 @@ body {
 }
 
 .eagle-transparent {
-    background-image: url(img/press-centre-white-bg.png);	
+    background-image: url(../img/press-centre-white-bg.png);	
     background-position: top;
     background-repeat: no-repeat;
 }
