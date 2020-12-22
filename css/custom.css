@@ -242,9 +242,9 @@ body {
 }
 
 .animation {
-    background-image: url(../img/binar-green-bg.png);	
-    background-size: cover;	
-    background-position: top left;	
+    background-image: url(../img/binar-green-bg.png);
+    background-size: cover;
+    background-position: top left;
     background-repeat: repeat;
 }
 
@@ -253,7 +253,74 @@ body {
 }
 
 .eagle-transparent {
-    background-image: url(../img/press-centre-white-bg.png);	
+    background-image: url(../img/press-centre-white-bg.png);
     background-position: top;
     background-repeat: no-repeat;
+}
+
+.accordion .ui-accordion-header {
+    position: relative;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #07A671;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion .ui-accordion-content {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.accordion .ui-accordion-header-icon {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    background-position: -65px 0px;
+}
+
+.accordion .ui-accordion-header-active .ui-accordion-header-icon {
+	background-position: 0px 0px;
+}
+
+.accordion-simple .ui-accordion-header {
+    position: relative;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-simple .ui-accordion-content {
+    position: relative;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-simple .ui-accordion-header-icon {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    background-position: -65px 0px;
+}
+
+.accordion-simple .ui-accordion-header-active .ui-accordion-header-icon {
+	background-position: 0px 0px;
 }
