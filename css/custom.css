@@ -129,4 +129,98 @@
     .search-button-fls {
         width: 10.375em;
     }
+    /*animation for cards in main page*/
+.anim-card:hover {
+    animation: levitation 1s linear 0.1s 1 ;
+}
+
+@keyframes levitation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+}
+.child-svg-1 {
+    display: block;
+}
+.child-svg-2 {
+    display: none;
+}
+.anim-card:hover .child-svg-1 {
+    display: none;
+}
+.anim-card:hover .child-svg-2 {
+    display: block;
+}
+/*end of animation for cards in main page*/
+.anim-text-color-books:hover {
+    color: #03A06C;
+
+}
+.allow-new-photo-for-dir:hover {
+    border: 3px solid #65994C; /* p-m border */
+    border-radius: 10px; /* rad. border */
+   }
+   .anim-after-text-bdr {
+    cursor: pointer;
+    line-height: 1.2;
+    color: #000000;
+}
+.anim-after-text-bdr:after {
+    display: block;
+	position: absolute;
+	left: 0; /*left to right */
+	width: 0;
+    height: 4px; 
+    background: linear-gradient(to right, #03A06C,#FCD828); 
+    background: -webkit-linear-gradient(to right,#03A06C,#FCD828);/*fallback for Opera*/ 
+	content: "";
+    transition: width 0.9s ease-out;
     
+}
+.anim-after-text-bdr:hover {
+    color: #03A06C;
+    transition: color 0.7s ease-out;
+
+}
+.anim-after-text-bdr:hover:after,
+.anim-after-text-bdr:focus:after {
+    width: 100%;
+}
+/*line after text our values*/
+.anim-after-text-bd-simple {
+    cursor: pointer;
+    line-height: 1.2;
+    color: #000000;
+}
+.anim-after-text-bd-simple:after {
+    display: block;
+	position: absolute;
+	left: 0; /*left to right */
+	width: 0;
+    height: 4px; 
+    background: #03A06C;
+	content: "";
+    transition: width 0.5s ease-out;
+    
+}
+.anim-after-text-bd-simple-simple:hover {
+    color: #03A06C;
+    transition: color 0.5s ease-out;
+
+}
+.anim-after-text-bd-simple:hover:after,
+.anim-after-text-bd:focus:after {
+    width: 35%;
+}
+.anim-text-color-books:hover {
+    color: #03A06C;
+
+}
+/*about-scli-anim-photo*/
+.allow-new-photo-for-dir:hover {
+    border: 3px solid #65994C; /* p-m border */
+    border-radius: 10px; /* rad. border */
+   }
