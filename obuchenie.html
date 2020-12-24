@@ -17,36 +17,12 @@
     <div class="side-for-scli align-items-center d-flex pb-5">
       <div class="container py-5">
         <div class="row">
-          <div class="col-md-9 px-md-5">
-            <h1 class="side-text mb-4 py-6 text-48px">Министерство юстиции Россиийской Федерации<br>
-              <p class="text-32px">Научный центр правовой информации</p>
-            </h1>
-            <p class="side-text text-16px">Образовательные программы актуальные духу времени</p>
-            <div class="row">
-              <div class="col-md-12"></div>
-            </div> <a href="#" class="btn btn-lg btn-warning text-16px" data-toggle="modal"
+          <div class="side-text-normal col-md-8">
+            <h1 class="side-text mb-4 py-6 text-48px">Министерство юстиции Россиийской Федерации</h1>
+            <p class="text-22px">Научный центр правовой информации</p>
+            <p class="text-22px">Образовательные программы<br> актуальные духу времени</p>
+            <a href="#" class="btn btn-lg btn-warning text-16px mt-3" data-toggle="modal"
               data-target="#myModal">Начать обучение</a>
-            </button>
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -159,7 +135,16 @@
                   </div>
                 </div>
               </div>
-              <div>...</div>
+              <div>
+                <p class="text-light text-16px">Обучение дает возможность дополнить ваш профессиональный опыт новыми навыками в области нормотворчества. Курсы разработаны для государственных и муниципальныъ служащих.</p>
+                <p class="text-light text-22px font-weight-bold mt-5">Разработка муниципальных правовых актов</p>
+                <p class="text-light text-16px">Совершенствование нормотворческой деятельности органов местного самоуправления</p>
+                <a href="#" class="mt-2">Перейти →</a>
+                <p class="text-light text-22px font-weight-bold mt-5">Федеральный регистр и государственные реестры</p>
+                <p class="text-light text-16px">Обучение ведения федеральных регистров и государственных реестров НПА</p>
+                <a href="#" class="mt-2">Перейти →</a>
+                <a href="#" class="btn btn-lg btn-warning text-16px mt-5 d-flex justify-content-center text-black" data-toggle="modal" data-target="#myModal">Узнать больше о программе</a>
+              </div>
               <div class="accordion-header">
                 <div class="row">
                   <div class="col-auto align-self-center pl-4"><img src="svg/eagle.svg" alt="logo"></div>
@@ -292,19 +277,19 @@
 </body>
 </main>
 <script>
-$( document ).ready(function() {
-  $('.accordion').accordion({
-    heightStyle: 'content',
-    header: '.accordion-header',
-    active: true
-  });
+  $(document).ready(function () {
+    $('.accordion').accordion({
+      heightStyle: 'content',
+      header: '.accordion-header',
+      active: true
+    });
 
-  $('.accordion-simple').accordion({
-    heightStyle: 'content',
-    header: '.accordion-header-simple',
-    active: true
+    $('.accordion-simple').accordion({
+      heightStyle: 'content',
+      header: '.accordion-header-simple',
+      active: true
+    });
   });
-});
 </script>
 
 </html>

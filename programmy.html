@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  </head>
+
+<body>
+  <main>
+    <div class="side-for-scli align-items-center d-flex pb-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="side-text-normal col-md-8">
+            <h1 class="side-text mb-4 py-6 text-48px">Министерство юстиции Россиийской Федерации</h1>
+            <p class="text-22px">Научный центр правовой информации</p>
+            <p class="text-22px">Образовательные программы<br> актуальные духу времени</p>
+            <a href="#" class="btn btn-lg btn-warning text-16px mt-3" data-toggle="modal"
+              data-target="#myModal">Начать обучение</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="">
+            <h3 class="font-weight-bold">Дополнительное<br>образование</h3>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion">
+              <div class="accordion-header">
+                <div class="row">
+                  <div class="col-auto align-self-center pl-4"><img src="svg/eagle.svg" alt="logo"></div>
+                  <div class="col p-4 text-light">
+                    <h4 class="font-weight-bold">Медиация</h4>
+                    <p>Для юристов, представителей бизнеса и широкого круга специалистов</p>
+                  </div>
+                </div>
+              </div>
+              <div>...</div>
+              <div class="accordion-header">
+                <div class="row">
+                  <div class="col-auto align-self-center pl-4"><img src="svg/eagle.svg" alt="logo"></div>
+                  <div class="col p-4 text-light">
+                    <h4 class="font-weight-bold">Мой офис</h4>
+                    <p>Для государственных учреждений и корпораций</p>
+                  </div>
+                </div>
+              </div>
+              <div>...</div>
+              <div class="accordion-header">
+                <div class="row">
+                  <div class="col-auto align-self-center pl-4"><img src="svg/eagle.svg" alt="logo"></div>
+                  <div class="col p-4 text-light">
+                    <h4 class="font-weight-bold">Нормотворчество</h4>
+                    <p>Совершенствование нормотворческой деятельности органов местного самоуправления</p>
+                  </div>
+                </div>
+              </div>
+              <div>...</div>
+              <div class="accordion-header">
+                <div class="row">
+                  <div class="col-auto align-self-center pl-4"><img src="svg/eagle.svg" alt="logo"></div>
+                  <div class="col p-4 text-light">
+                    <h4 class="font-weight-bold">Антикоррупция</h4>
+                    <p>Профилактика коррупционных нарушений для государственных служащих и руководителей учреждений</p>
+                  </div>
+                </div>
+              </div>
+              <div>...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    $(document).ready(function () {
+      $('.accordion').accordion({
+        heightStyle: 'content',
+        header: '.accordion-header',
+        active: true
+      });
+  
+      $('.accordion-simple').accordion({
+        heightStyle: 'content',
+        header: '.accordion-header-simple',
+        active: true
+      });
+    });
+  </script>
+ </body>
+
+</html>
