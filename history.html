@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/custom.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -124,16 +126,169 @@
         </div>
       </div>
     </div>
-  <div class="py-5 text-center animation">
+  </main>
+  <div class="py-5 text-center" style="	background-image: url(img/history-slider.png);	background-size: cover;	background-position: top left;	background-repeat: repeat; background-attachment: fixed;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p class="text-light">Здесь анимационный блок</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text-light text-18px">
+          <p id="animation-for-year1973" class="year-block">1973</p>
+          <p id="animation-for-year1974"class="year-block">1974</p>
+          <p id="animation-for-year1975"class="year-block">1975</p>
+          <p id="animation-for-year1976"class="year-block">1976</p>
+          <p id="animation-for-year1977"class="year-block">1977</p>
+          <p id="animation-for-year1982"class="year-block">1982</p>
+          <p id="animation-for-year1991" class="year-block">1991</p>
+          <p id="animation-for-year1992"class="year-block">1992</p>
+          <p id="animation-for-year1993"class="year-block">1993</p>
+          <p id="animation-for-year2000-14"class="year-block">2000-14</p>
+          <p id="animation-for-year2011"class="year-block">2011</p>
+          <p id="animation-for-year2017"class="year-block">2017</p>
+          <p id="animation-for-year2020-21"class="year-block">2020-21</p>
+        </div>
+        <div id="year-block-open1973" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1974" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1975" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1976" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1977" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1982" class="col-md-6  ">
+          <h3 class=" text-left text-light">Создание первой в СССР 
+            автоматизированной информационно-поисковой системы АИПС-«Законодательство» </h3><br><p class="text-left text-light">Определяющим в развитии Центра стал 1982 год, 
+              когда была введена в действие автоматизированная информационно-поисковая система «АИПС-Законодательство», первая удачная попытка систематизации большого правового массива. 
+              
+              Работу АИПС сопровождал подготовленный в НЦПИ первый в стране информационно-правовой тезаурус. Одной из подсистем АИПС являлась подсистема «Свод законов».
+              
+              Значительным достижением в стратегии формирования информационной базы Центра на следующем этапе стало помещение в нее полных текстов нормативных актов. НЦПИ первым стал  учитывать все акты, принимаемые высшими органами власти, нормативные акты министерств и ведомств.</p>
+        </div>
+        <div id="year-block-open1991" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1992" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open1993" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open2000-14" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open2011" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open2017" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
+        </div>
+        <div id="year-block-open2020-21" class="col-md-6  ">
+          <p class=" lead text-left text-light">Здесь тоже текст о истории</p>
         </div>
       </div>
     </div>
   </div>
-</main>
+  <script>
+  $('#animation-for-year1973').hover(
+    function(){
+        $('#year-block-open1973').fadeIn();
+    },
+    function(){
+        $('#year-block-open1973').fadeOut();
+    });
+    $('#animation-for-year1974').hover(
+    function(){
+        $('#year-block-open1974').fadeIn();
+    },
+    function(){
+        $('#year-block-open1974').fadeOut();
+    });
+    $('#animation-for-year1975').hover(
+    function(){
+        $('#year-block-open1975').fadeIn();
+    },
+    function(){
+        $('#year-block-open1975').fadeOut();
+    });
+    $('#animation-for-year1976').hover(
+    function(){
+        $('#year-block-open1976').fadeIn();
+    },
+    function(){
+        $('#year-block-open1976').fadeOut();
+    });
+    $('#animation-for-year1977').hover(
+    function(){
+        $('#year-block-open1977').fadeIn();
+    },
+    function(){
+        $('#year-block-open1977').fadeOut();
+    });
+    $('#animation-for-year1982').hover(
+    function(){
+        $('#year-block-open1982').fadeIn();
+    },
+    function(){
+        $('#year-block-open1982').fadeOut();
+    });
+    $('#animation-for-year1991').hover(
+    function(){
+        $('#year-block-open1991').fadeIn();
+    },
+    function(){
+        $('#year-block-open1991').fadeOut();
+    });
+    $('#animation-for-year1992').hover(
+    function(){
+        $('#year-block-open1992').fadeIn();
+    },
+    function(){
+        $('#year-block-open1992').fadeOut();
+    });
+    $('#animation-for-year1993').hover(
+    function(){
+        $('#year-block-open1993').fadeIn();
+    },
+    function(){
+        $('#year-block-open1993').fadeOut();
+    });
+    $('#animation-for-year2000-14').hover(
+    function(){
+        $('#year-block-open2000-14').fadeIn();
+    },
+    function(){
+        $('#year-block-open2000-14').fadeOut();
+    });
+     $('#animation-for-year2011').hover(
+    function(){
+        $('#year-block-open2011').fadeIn();
+    },
+    function(){
+        $('#year-block-open2011').fadeOut();
+    });
+  $('#animation-for-year2017').hover(
+    function(){
+        $('#year-block-open2017').fadeIn();
+    },
+    function(){
+        $('#year-block-open2017').fadeOut();
+    }); 
+    $('#animation-for-year2020-21').hover(
+    function(){
+        $('#year-block-open2020-21').fadeIn();
+    },
+    function(){
+        $('#year-block-open2011').fadeOut();
+    });
+  </script>
 </body>
-
 </html>
