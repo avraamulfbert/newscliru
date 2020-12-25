@@ -143,45 +143,8 @@ background:#3B4256;
     border: 3px solid #65994C; /* p-m border */
     border-radius: 10px; /* rad. border */
    }
-.form-control {
-width: 48.5em !important;
-background-color: transparent !important;
-color:#ffffff !important;
-}
-::-webkit-input-placeholder { /* WebKit browsers */
-    color:#ffffff !important;
- }
- :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:#ffffff !important;
- }
- ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:#ffffff !important;
- }
- :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:#ffffff !important;
- }
-.search-button-fls {
-    width: 10.375em;
-}
-/*NBsearchNB
-.feedback-form {
-    max-width: 26.375em;
-    max-height: 51.5em;
-    border-color: red;
-    background-color: #07A671;
-    color: #ffffff;
-}
-.feedback-button {
-    width: 100%;
-    background-color: #FFDE01;
-    color: #000;
-    margin-bottom: 3em;
 
-}
-.feedback-form-group {
-    max-width:400px !important;
-}/*
-/*line after text about-scli*/
+/**/
 .anim-after-text-bdr {
     cursor: pointer;
     line-height: 1.2;
