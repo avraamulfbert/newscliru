@@ -493,7 +493,6 @@ body {
     background: #FCD828;
 	content: "";
     transition: width 0.9s ease-out;
-
 }
 .year-block:hover:after,
 .year-block:focus:after {
