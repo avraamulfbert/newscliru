@@ -1,100 +1,151 @@
 @font-face {
-font-family: "Golos"; 
-src: url("../fonts/golos-regular.ttf") format("truetype");
-} 
+    font-family: "Golos";
+    src: url("../fonts/golos-regular.ttf") format("truetype");
+}
 
 body {
     font-family: "Golos";
 }
+
 .navbar {
     background: #03A06C;
     height: 100px;
 }
-.navbar-brand {
-    margin-left: 14%;
-}
+
 .nav-link {
-color: #ffffff ;}
+    color: #ffffff;
+}
+
 .side-for-scli {
-    background-image: url("../img/back-side-for-scli.png"); 
+    background-image: url("../img/back-side-for-scli.png");
 }
+
 .side-text {
-    color: #ffffff; 
+    color: #ffffff;
     font-family: "Golos";
-    font-style: normal; 
-    font-weight: bold; 
+    font-style: normal;
+    font-weight: bold;
 }
+
+.side-text-normal {
+    color: #ffffff;
+    font-family: "Golos";
+    font-style: normal;
+}
+
 .bg-list-light {
     background: #ffffff;
     color: #000000;
-    box-shadow: 0 5px 6px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
 }
+
 .back-side-for-scli-alt {
-    background-image:url("../img/back-side-for-scli-alt.png");}
-.back-side-for-about-scli {
-    background-image:url("../img/recources-bg.png");
+    background-image: url("../img/back-side-for-scli-alt.png");
 }
+
+.back-side-for-about-scli {
+    background-image: url("../img/recources-bg.png");
+}
+
 .first-footer {
-background:#3B4256;
-}    
+    background: #3B4256;
+}
+
 .second-footer {
     background: #2D3344;
 }
+
 .py-6 {
     padding-top: 20%;
 }
-.py-7{
+
+.py-7 {
     padding-top: 5%;
 }
+
 .pt-6 {
     padding-bottom: 40%;
 }
+
 .breadcrumps-for-fixed-nav {
     padding-top: 6.6%;
 }
+
 .breadcrumb-custom-size {
     padding-left: 19em;
     font-size: 13px;
 }
+
 .breadcrumb-item>a {
     color: gray;
 }
+
 .breadcrumb-item-active {
     color: #000 !important;
 }
+
 .drowpdown-100 {
     width: 100%;
 }
-.text-48px {font-size: 48px;
 
+.text-48px {
+    font-size: 48px;
 }
-.text-32px {font-size: 32px;}
-.text-16px {font-size: 16px;}
-.text-22pxx {font-size: 22px;}
-.text-18px { font-size: 18px;}
-.text-14px {font-size: 14px;}
+
+.text-32px {
+    font-size: 32px;
+}
+
+.text-16px {
+    font-size: 16px;
+}
+
+.text-22px {
+    font-size: 22px;
+}
+
+.text-18px {
+    font-size: 18px;
+}
+
+.text-14px {
+    font-size: 14px;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
 .greystone-text {
     color: #B3BBC3;
 }
+
 .yellowstone-text {
     color: #FFDE01;
 }
+
 .greenstone-text {
     color: #03A06C;
 }
+
 .yellow-link-bg {
     background-color: #FFDE01;
+    color: #000;
 }
+
 .green-link-color {
     color: #03A06C;
 }
+
 .super-search-button {
     padding-left: 27em;
 }
+
 .plus-сareer:hover {
     color: #03A06C;
     cursor: pointer;
 }
+
 .content-container {
     height: 72px;
     width: auto;
@@ -103,12 +154,233 @@ background:#3B4256;
 .card-special-styles {
     margin-top: -3.5em;
 }
+
 .mainpage-news-photo {
     border-radius: 4px;
 }
+
 .form-inline {
     padding-bottom: 23em;
+    padding-left: 5em;
 }
+
+.form-control {
+    width: 48.5em !important;
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #ffffff !important;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ffffff !important;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ffffff !important;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ffffff !important;
+}
+
+.search-button-fls {
+    width: 10.375em;
+}
+
+.first-menu-a {
+    line-height: 80px;
+}
+
+.first-menu-a:hover {
+    background-color: #039766;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu>li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    /* display: block; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    padding: 15px 0px 0px 0px;
+}
+
+.sub-menu-content {
+    background-color: #039766;
+    padding-top: 50px;
+}
+
+.sub-h {
+    padding-inline-start: 40px;
+}
+
+.sub-h a {
+    text-decoration: none;
+    color: #FFDE01;
+}
+
+.sub-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.bx-breadcrumb-item span {
+    color: #848E99;
+}
+
+.bx-breadcrumb-item .active {
+    color: #000;
+}
+
+.animation {
+    background-image: url(../img/binar-green-bg.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: repeat;
+}
+
+.scli-breadcrumb {
+    padding-top: 110px;
+}
+
+.eagle-transparent {
+    background-image: url(../img/press-centre-white-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.accordion .ui-accordion-header {
+    position: relative;
+    padding: 10px;
+    border: none !important;
+    background: #07A671;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion .ui-accordion-content {
+    background: #039766;
+}
+
+.accordion .ui-accordion-content a {
+    font-size: 16px;
+    color: #FFDE01;
+}
+
+.accordion .ui-accordion-header-icon {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    background-position: -65px 0px;
+}
+
+.accordion .ui-accordion-header-active .ui-accordion-header-icon {
+	background-position: 0px 0px;
+}
+
+.accordion-simple .ui-accordion-header {
+    color: #000;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-simple .ui-accordion-content {
+    position: relative;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-simple .ui-accordion-header-icon {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    background-position: -65px 0px;
+}
+
+.accordion-simple .ui-accordion-header-active .ui-accordion-header-icon {
+	background-position: 0px 0px;
+}
+
+.icon-pdf {
+    background-image: url(../img/icons/icon_pdf.png);
+    margin-right: 5px;
+}
+
+.icon-pdf-gold {
+    background-image: url(../img/icons/icon_pdf_gold.png);
+    margin-right: 5px;
+}
+
+/* ==========================================================================
+   SWITCH-BLOCK */
+/* ========================================================================== */
+.switch-block {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 15px;
+    line-height: 0;
+    font-size: 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.switch-block-item {
+    color: #828282;
+    text-decoration: none;
+    display: inline-block;
+    font: normal 16px/20px "Open Sans", OpenSans, Arial, sans-serif;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+.switch-block-item.active {
+    color: #157fc4;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 1px #157fc4;
+}
+.special-settings {
+    display: none;
+}
+.special-aaVersion-on .special-settings {
+    display: block;
+}
+.aa-show {
+    display: none;
+}
+.special-aaVersion-on .aa-show {
+    display: inline-block;
+    float: right;
+}
+.special-aaVersion-on .aa-hide {
+    display: none;
+}
+
 /*animation for cards in main page*/
 .anim-card:hover {
     animation: levitation 1s linear 0.1s 1 ;
@@ -143,9 +415,7 @@ background:#3B4256;
     border: 3px solid #65994C; /* p-m border */
     border-radius: 10px; /* rad. border */
    }
-
-/**/
-.anim-after-text-bdr {
+   .anim-after-text-bdr {
     cursor: pointer;
     line-height: 1.2;
     color: #000000;
@@ -197,6 +467,15 @@ background:#3B4256;
 .anim-after-text-bd:focus:after {
     width: 35%;
 }
+.anim-text-color-books:hover {
+    color: #03A06C;
+
+}
+/*about-scli-anim-photo*/
+.allow-new-photo-for-dir:hover {
+    border: 3px solid #65994C; /* p-m border */
+    border-radius: 10px; /* rad. border */
+   }
 /*carousel-history*/
 .year-block:hover {
     font-size: 250%;
@@ -214,7 +493,6 @@ background:#3B4256;
     background: #FCD828;
 	content: "";
     transition: width 0.9s ease-out;
-    
 }
 .year-block:hover:after,
 .year-block:focus:after {
@@ -294,4 +572,21 @@ background:#3B4256;
     position: absolute;
     right: 0;
     display: none;
+} 
+
+.history-slider {
+    background-image: url(../img/history-slider.png);	
+    background-size: cover;	
+    background-position: top left;	
+    background-repeat: repeat; 
+    background-attachment: fixed;
+}
+
+.link-black {
+    color: #000;
+}
+
+.link-black:hover {
+    color: #07A671;
+    text-decoration: none;
 }

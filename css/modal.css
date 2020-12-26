@@ -1,0 +1,37 @@
+.modal_form {
+    background-color: #07A671 !important;
+    width: 26.3em !important;
+    color: white;
+}
+input {
+    width: 100% !important;
+    background: transparent !important;
+    border-radius: 4px;
+}
+.mf-name {
+    width: 100%;
+    border-radius: 4px;
+}
+.mf-email {
+    width: 100%;
+    border-radius: 4px;
+}
+select {
+    width: 100%;
+    background:transparent;
+    color: white;
+    border-radius: 4px;
+}
+.close_form {
+    color: white;
+    opacity: 0.5;
+}
+.close_form:hover {
+    opacity: 1;
+}
+input[type="submit"] {
+    background-color: #FFDE01 !important;
+    color: #3B4256;
+    height: 4em;
+    border-radius: 4px;
+}
