@@ -590,3 +590,53 @@ body {
     color: #07A671;
     text-decoration: none;
 }
+@media (max-width: 1024px) {
+    .history-slider {
+        display: none;
+    }
+    #dropdownMenuButton {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 760px) {
+    #dropdownMenuButton {
+        font-size: 12px;
+    }
+    .anim-card {
+        display: none;
+    }
+    .child-svg-1 {
+        display: block;
+    }
+    .child-svg-2 {
+        display: none;
+    }
+    .anim-card-slide:hover .child-svg-1 {
+        display: none;
+    }
+    .anim-card-slide:hover .child-svg-2 {
+        display: block;
+    }
+    
+.anim-card-slide{
+    max-width: 1100px;
+    display: flex;
+  }
+  .anim-card-slide .card{
+    flex: 7;
+    margin: 0 10px;
+    background: #fff;
+  }
+    .owl-item {
+        width: 15em !important;
+    }
+    .history-slider {
+        display: none;
+    }
+  }
+  @media (min-width: 761px) {
+.slider{
+    display: none !important;
+}
+  }
